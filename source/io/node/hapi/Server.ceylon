@@ -27,7 +27,7 @@ shared class Server() {
 	}
 	
 	shared void route(String method, String path, 
-		Anything(Object, Object) handler) {
+		Anything(Request, Reply) handler) {
 			dynamic {
 				_server.route(
 					dynamic [ 

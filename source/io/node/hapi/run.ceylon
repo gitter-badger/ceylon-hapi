@@ -13,10 +13,14 @@ shared void run() {
 	server.route {
 		method = "GET";
 		path = "/";
-		handler = void (request, reply) {
-			dynamic {
-				console.log("GET request for / recieved");
-			}
+		handler = void (Request request, Reply reply) {
+			//dynamic {
+			//	console.log("GET request for / recieved");
+			//}
+			
+			Response res = ceylonReply(reply, "success");
+			res.type("text/plain");
+			res.header("X-Custom", "some-value");
 		};
 	};
 }
