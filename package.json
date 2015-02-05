@@ -1,0 +1,15 @@
+{
+  "name": "ceylon-hapi",
+  "version": "0.0.1",
+  "description": "A collection of helpers and interfaces for using hapi.js in ceylon.",
+  "keywords": [
+    "ceylon",
+    "hapi",
+    "server",
+    "framework"
+  ],
+  "author": "Jake Russo <madcap.russo@gmail.com>",
+  "dependencies": {
+    "hapi": "^8.1.0"
+  }
+}
