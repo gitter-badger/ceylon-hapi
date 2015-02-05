@@ -1,5 +1,7 @@
 # Ceylon-Hapi
 
+[![Join the chat at https://gitter.im/Kurremkarmerruk/ceylon-hapi](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Kurremkarmerruk/ceylon-hapi?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This is ceylonified hapi.js.  Provides hapi.js documentation, typing (where possible), and several changed methods that allow you to utilize ceylon's features and still run a stable node HTTP server.
 
 ## Features
